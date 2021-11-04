@@ -3,6 +3,7 @@ layout: page
 title: Pokemon Gen 2 Battery Replacement
 name: pokemon_gen2_battery_replacement
 image: pokemon_gen2_battery_replacement/cartridge_front.png
+description: I replaced the save data battery in a Pokemon Silver cartridge as a soldering practice project.
 ---
 
 ![Photograph of the front of a cartridge of the Japanese version of Pokemon Silver](pokemon_gen2_battery_replacement/cartridge_front.png)
