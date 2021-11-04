@@ -4,3 +4,8 @@
 
 layout: home
 ---
+
+
+{% for page in site.projects %}
+- [{{ page.title }}]({{ page.url | prepend: site.baseurl }})
+{% endfor %}
