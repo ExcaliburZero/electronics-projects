@@ -7,7 +7,7 @@ image: pokemon_gen2_battery_replacement/cartridge_front.png
 
 ![Photograph of the front of a cartridge of the Japanese version of Pokemon Silver](pokemon_gen2_battery_replacement/cartridge_front.png)
 
-For one of my first practical soldering project I decided to try replacing the save data battery in a generation 2 Pokemon game, since it would be a simple project to start with and I remeber those games fondly from my childhood.
+For one of my first practical soldering project I decided to try replacing the save data battery in a generation 2 Pokemon game, since it would be a simple project to start with and I remember those games fondly from my childhood.
 
 I picked up a Japanese copy of Pokemon Silver from Ebay, which had a dead save battery that prevented it from keeping its save data when turned off. I confirmed using a GameBoy Advance that the cartridge would play the game, but after saving, turning the handheld off for a few seconds, and turning it back on, the save data would no longer be there.
 
@@ -34,6 +34,6 @@ During the process I also used some isopropyl alcohol to clean the PCB, especial
 
 ![Photograph of the Pokemon Silver PCB with the replacement battery installed](pokemon_gen2_battery_replacement/after.png)
 
-After replacing the battery, I tried the cartridge out in my GameBoy Advance, and the save data was now preserved after turinging it off and back on (after a few seconds).
+After replacing the battery, I tried the cartridge out in my GameBoy Advance, and the save data was now preserved after turning it off and back on (after a few seconds).
 
 ![Photograph of a blue GameBoy Advance playing the fixed Pokemon Silver cartridge, with the screen showing that there is save data on the cartridge](pokemon_gen2_battery_replacement/save_data_working.png)
