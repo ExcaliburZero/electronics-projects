@@ -1,12 +1,18 @@
 ---
 layout: page
 title: Pokemon Gen 2 Battery Replacement
-name: pokemon_gen2_battery_replacement
-image: pokemon_gen2_battery_replacement/cartridge_front.png
+name: pokemon-gen2-battery-replacement
+image: 2021/11/04/cartridge_front.png
 description: I replaced the save data battery in a Pokemon Silver cartridge as a soldering practice project.
+date: 2021-11-04
+tags: [GameBoy Color, Pokemon, Soldering, Battery, Cartridge]
 ---
 
-![Photograph of the front of a cartridge of the Japanese version of Pokemon Silver](pokemon_gen2_battery_replacement/cartridge_front.png)
+{% assign post_url_parts = page.url | split: "/" %}
+{% assign num_parts_to_grab = post_url_parts.size | minus: 1 %}
+{% assign post_dir = post_url_parts | slice: 0, num_parts_to_grab | join: "/" %}
+
+![Photograph of the front of a cartridge of the Japanese version of Pokemon Silver]({{ post_dir | append: "/cartridge_front.png" | absolute_url }})
 
 For one of my first practical soldering project I decided to try replacing the save data battery in a generation 2 Pokemon game, since it would be a simple project to start with and I remember those games fondly from my childhood.
 
@@ -29,12 +35,12 @@ During the process I also used some isopropyl alcohol to clean the PCB, especial
 
 **Before:**
 
-![Photograph of the Pokemon Silver PCB with old battery](pokemon_gen2_battery_replacement/before.png)
+![Photograph of the Pokemon Silver PCB with old battery]({{ post_dir | append: "/before.png" | absolute_url }})
 
 **After:**
 
-![Photograph of the Pokemon Silver PCB with the replacement battery installed](pokemon_gen2_battery_replacement/after.png)
+![Photograph of the Pokemon Silver PCB with the replacement battery installed]({{ post_dir | append: "/after.png" | absolute_url }})
 
 After replacing the battery, I tried the cartridge out in my GameBoy Advance, and the save data was now preserved after turning it off and back on (after a few seconds).
 
-![Photograph of a blue GameBoy Advance playing the fixed Pokemon Silver cartridge, with the screen showing that there is save data on the cartridge](pokemon_gen2_battery_replacement/save_data_working.png)
+![Photograph of a blue GameBoy Advance playing the fixed Pokemon Silver cartridge, with the screen showing that there is save data on the cartridge]({{ post_dir | append: "/save_data_working.png" | absolute_url }})
