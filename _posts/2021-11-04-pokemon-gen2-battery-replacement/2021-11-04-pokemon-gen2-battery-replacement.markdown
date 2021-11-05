@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Pokemon Gen 2 Battery Replacement
 name: pokemon-gen2-battery-replacement
 image: 2021/11/04/cartridge_front.png
