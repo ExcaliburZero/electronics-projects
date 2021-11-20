@@ -28,7 +28,7 @@ First I tried charging the Nintendo 2DS in case there was a battery-related issu
 
 I also took out the battery and tested it with the "voltage" setting of my multimeter, and it gave a reading of `4.06 V`. So the battery seemed not to be dead or low.
 
-After doing some searching online I found some YouTube videos that mentioned that the 2DS turning off after a few seconds with a "pop" sound could be due to a loose screen backlight ribbon cable.
+After doing some searching online I found a YouTube video that mentioned that the 2DS turning off after a few seconds with a "pop" sound could be due to a loose screen backlight ribbon cable. [^Why-your-2ds-powers-on-then-turns-off-with-a-pop]
 
 I opened up the 2DS to give this fix a try. Upon opening it I found that the ribbon cable for home button was disconnected, so I reseated it and tried powering the 2DS back on, but the issue still persisted.
 
@@ -93,6 +93,10 @@ Overall the repair was interesting. There was some information online to help ge
 The screen replacement wasn't too difficult, with the exception of applying the gasket to the replacement screen.
 
 I'm glad that I did the repair, since I ended up learning a lot more about the 2DS and I now feel more confident in doing handheld repairs.
+
+## Footnotes
+
+[^Why-your-2ds-powers-on-then-turns-off-with-a-pop]: Facelesstech. "Why your 2ds powers on then turns off with a pop". (Aug 15, 2019) [https://www.youtube.com/watch?v=LauZ7FdbQZg](https://www.youtube.com/watch?v=LauZ7FdbQZg)
 
 *[IPA]: Isopropyl alcohol
 *[IR]: Infrared
