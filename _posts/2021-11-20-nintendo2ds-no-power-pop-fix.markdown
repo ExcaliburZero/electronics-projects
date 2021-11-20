@@ -20,7 +20,7 @@ While looking around on Ebay I found a listing for a broken Nintendo 2DS that lo
 
 A powering-on issue sounded like an interesting challenge, so I decided to give it a try.
 
-The handheld was in fairly decent condition. The plastic shell had some scratches, and there was one notable scratch on the touch screen. It also had a large sticker on the back, which I had to remove using isopropal alcohol before I could do any troubleshooting that required opening the device.
+The handheld was in fairly decent condition. The plastic shell had some scratches, and there was one notable scratch on the touch screen. It also had a large sticker on the back, which I had to remove using isopropyl alcohol before I could do any troubleshooting that required opening the device.
 
 ## Troubleshooting
 
@@ -38,7 +38,7 @@ I also asked on "The Retro Future" Discord channel's "#repair-help" channel to s
 
 italianretroguy recommended that I try checking the wifi module, so I tried reseating it, but the issue unfortunately still persisted.
 
-I ended up trying a few iterations of unseating some of the screen ribbon cables, and eventually I tried it with the 2 LCD ribbon cables unseated, but the backlight and touchscreen cables still seated and when I powered the device on the screen lit up but was very cracked. (But no longer "poped" and turned off)
+I ended up trying a few iterations of unseating some of the screen ribbon cables, and eventually I tried it with the 2 LCD ribbon cables unseated, but the backlight and touchscreen cables still seated and when I powered the device on the screen lit up but was very cracked. (But no longer "popped" and turned off)
 
 Progress!
 
@@ -93,3 +93,6 @@ Overall the repair was interesting. There was some information online to help ge
 The screen replacement wasn't too difficult, with the exception of applying the gasket to the replacement screen.
 
 I'm glad that I did the repair, since I ended up learning a lot more about the 2DS and I now feel more confident in doing handheld repairs.
+
+*[IPA]: Isopropyl alcohol
+*[IR]: Infrared
