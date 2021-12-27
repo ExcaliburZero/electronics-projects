@@ -11,6 +11,8 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
   <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+
+  <!--
   <ul class="post-list">
     {%- for post in site.posts -%}
 
@@ -32,6 +34,25 @@ layout: default
     </li>
     {%- endfor -%}
   </ul>
+  -->
+  <table>
+
+  {%- for post in site.posts -%}
+    <tr>
+      <td>{{ post.date | date: date_format }}</td>
+      <td style="height: 64px;">
+        <img src="{{ site.baseurl }}/{{ post.image }}" style="width: 60px;" />
+      </td>
+      <td>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </td>
+    </tr>
+
+  {%- endfor -%}
+
+  </table>
 
   <p class="rss-subscribe">subscribe <a href="{{ "feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
